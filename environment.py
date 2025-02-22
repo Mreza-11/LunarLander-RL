@@ -8,4 +8,4 @@ def create_env(render_mode="human"):
     Returns:
         env (gym.Env): The initialized Gymnasium environment.
     """
-    return gym.make('LunarLander-v3', render_mode=render_mode)
+    return gym.make('LunarLander-v3', render_mode="human")
